@@ -10,13 +10,9 @@ import org.apache.spark.{SparkConf, SparkContext}
 
 object Main {
   def main(args: Array[String]) {
-    import org.apache.log4j.{Level, Logger}
-    Logger.getLogger("org").setLevel(Level.WARN)
-    Logger.getLogger("akka").setLevel(Level.WARN)
-
     val conf = new SparkConf()
       .setAppName("CSE8803FinalProject")
-      .setMaster("local")
+      .setMaster("yarn-cluster")
     val sc = new SparkContext(conf)
     val sqlContext = new SQLContext(sc)
 
