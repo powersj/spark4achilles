@@ -4,7 +4,9 @@
 Runs variations of ACHILLES analytics using Scala + Spark
 
 ## How to run
-First, sbt will bring in everything you need. Then you need to build the JAR:
+First, the data needs to be generated. See the readme in the data directory.
+
+Next, sbt will bring in everything you need, but you need to build the JAR:
 ```bash
 sbt assembly
 ```
