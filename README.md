@@ -3,7 +3,10 @@
 ## Objective
 Runs variations of ACHILLES analytics using Scala + Spark
 
-## How to run
+## How to Generate Data
+See the readme.md in the data directory.
+
+## How to Run
 First, the data needs to be generated. See the readme in the data directory.
 
 Next, sbt will bring in everything you need, but you need to build the JAR:
