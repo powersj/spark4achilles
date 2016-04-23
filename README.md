@@ -19,6 +19,10 @@ Then to run with Spark:
 spark-submit --class edu.gatech.cse8803.main.Main cse8803_project-assembly-1.3.jar
 ```
 
+## Supplemental Material
+ * Video: https://www.youtube.com/watch?v=k5bl7VhgEmQ
+ * Paper: https://github.com/powersj/spark4achilles/blob/master/CSE8803_BDAH_2016.pdf
+
 ## Contributors
 * [Joshua Powers](http://powersj.github.io/)
   * CSE8803 Big Data Analytics for Health Care  (Spring 2016)
